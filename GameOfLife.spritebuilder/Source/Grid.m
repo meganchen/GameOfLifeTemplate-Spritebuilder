@@ -35,7 +35,7 @@ static const int GRID_COLS = 10;
     float x = 0;
     float y = 0;
     
-    //initialize the array as as blank NSMutableArray
+    // initialize the array as a blank NSMutableArray
     _gridArray = [NSMutableArray array];
 
     //initialize Creatures
@@ -46,8 +46,8 @@ static const int GRID_COLS = 10;
         
         for(int j = 0; j < GRID_COLS; j++){
             Creature *creature = [[Creature alloc] initCreature];
-            creature.anchorPoint = ccp(0,0);
-            creature.position = ccp(x,y);
+            creature.anchorPoint = ccp(0, 0);
+            creature.position = ccp(x, y);
             [self addChild:creature];
             
             //to access an array inside an array...
