@@ -12,7 +12,7 @@
 
 - (instancetype) initCreature{
     //since we made Creature a subclass of CCSprite, the following 'super' refers to CCSprite
-    self = [super initWithImageNamed:@"GameOfLifeAssets/Assets/bubble.png"];
+    self = [super initWithImageNamed:@"/Users/meganchen/Desktop/Github/GameOfLifeTemplate-Spritebuilder/GameOfLife.spritebuilder/GameOfLifeAssets/Assets/bubble.png"];
     
     if(self){
         //initializes to self to not alive
