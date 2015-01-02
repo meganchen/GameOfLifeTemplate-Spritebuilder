@@ -15,8 +15,8 @@
     self = [super initWithImageNamed:@"/Users/meganchen/Desktop/Github/GameOfLifeTemplate-Spritebuilder/GameOfLife.spritebuilder/GameOfLifeAssets/Assets/bubble.png"];
     
     if(self){
-        //initializes to self to not alive
-        self.isAlive = NO;
+        //initializes to self to alive
+        self.isAlive = YES;
     }
     return self;
 }
